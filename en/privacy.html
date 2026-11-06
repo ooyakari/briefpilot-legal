@@ -22,23 +22,22 @@ h1{font-size:32px;line-height:1.2;margin:0 0 6px}h2{font-size:20px;margin:32px 0
 <ul>
 <li><b>Account:</b> user ID, email address and, if shared, your name from Sign in with Apple or Google (Art. 6(1)(b) GDPR).</li>
 <li><b>Photos of your letters:</b> processed only on your device (on-device text recognition with Apple Vision or Google ML Kit). Photos are never uploaded to our servers.</li>
-<li><b>Letter text and analysis:</b> the recognised text, explanation, tasks and deadlines are stored in your account so you can see them on all your devices (Art. 6(1)(b) GDPR; where special categories are involved, Art. 9(2)(a) GDPR – your consent).</li>
+<li><b>Letter text and analysis:</b> the recognised text, explanation, tasks and deadlines are stored <b>only on your device</b>, not on our servers. They are not synced between devices; if you delete the app they are gone (unless included in a backup of your device).</li>
 <li><b>AI analysis:</b> before any text is sent to our AI provider, the app removes names, addresses, bank details, phone numbers, email addresses, dates of birth and ID numbers on your device and replaces them with placeholders. Only this anonymised text is sent to the DeepSeek API (Hangzhou DeepSeek Artificial Intelligence Co., Ltd., China) and it is not stored by us after the answer. This only happens after your explicit consent in the app (Art. 6(1)(a), Art. 49(1)(a) GDPR). You can withdraw consent at any time in the app under Settings → Privacy; after that no letter text is sent. The automatic removal is carefully built but cannot guarantee that every personal detail is detected.</li>
-<li><b>Reminders:</b> your device's push token and reminder times (Art. 6(1)(b) GDPR).</li>
+<li><b>Reminders:</b> scheduled as local notifications on your device; no data is sent to us for this.</li>
 <li><b>Subscription:</b> purchase status and expiry via RevenueCat. Payment data is handled only by Apple or Google.</li>
 <li><b>Technical logs:</b> for security and abuse prevention (e.g. number of analyses per day), Art. 6(1)(f) GDPR.</li>
 </ul>
 <p>We do not use advertising or tracking and we never sell data.</p>
 <h2>4. Recipients and processors</h2>
 <ul>
-<li>Supabase Inc. – database, sign-in and server functions; data stored in Frankfurt am Main (EU).</li>
+<li>Supabase Inc. – sign-in, subscription status and server functions (no letter content); data stored in Frankfurt am Main (EU).</li>
 <li>DeepSeek – AI analysis of anonymised text (China), see above.</li>
 <li>RevenueCat Inc. (USA) – subscription management; EU Standard Contractual Clauses.</li>
-<li>Expo / 650 Industries Inc. (USA) – push notification delivery; EU Standard Contractual Clauses.</li>
-<li>Apple Inc. / Google LLC – sign-in, payments and push delivery.</li>
+<li>Apple Inc. / Google LLC – sign-in and payments.</li>
 </ul>
 <h2>5. Retention</h2>
-<p>Your data is kept until you delete individual letters or your account. Deleting your account immediately and permanently removes all letters, tasks, reminders and tokens. Purchase records of your subscription are kept by Apple, Google and RevenueCat under their own legal obligations; they contain no letter content. Logs are deleted after 30 days at the latest.</p>
+<p>Letters, tasks and reminders stay only on your device until you delete them or the app. Your account exists until you delete it; deleting your account immediately and permanently removes the account data on the server and all letters on this device. Purchase records of your subscription are kept by Apple, Google and RevenueCat under their own legal obligations; they contain no letter content. Logs are deleted after 30 days at the latest.</p>
 <h2>6. Your rights</h2>
 <p>You have the right to access, rectification, erasure, restriction, data portability, objection and withdrawal of consent (Art. 15–21, Art. 7(3) GDPR). Contact <a href="mailto:info@giran.de">info@giran.de</a>. You may also lodge a complaint with a data protection authority.</p>
 <h2>7. Deleting your account</h2>
